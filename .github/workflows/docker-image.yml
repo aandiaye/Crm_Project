@@ -21,6 +21,6 @@ jobs:
         image: aabdoulndiaye/mycrm_hub
         registry: docker.io
         dockerfile: Dockerfile
-        directory : ../mycrm 
+        directory : Crm_Project/mycrm 
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
