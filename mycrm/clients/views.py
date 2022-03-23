@@ -1,6 +1,6 @@
-# from django.shortcuts import render
-from django.http import HttpResponse
+from django.shortcuts import render
+#from django.http import HttpResponse
 
 
 def clients(request):
-    return HttpResponse('Liste des clients de votre entreprise')
+    return render(request, 'clients/liste_clients.html')
