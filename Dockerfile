@@ -1,4 +1,4 @@
-# syntax=docker/dockerfile
+# Mon docker file
 FROM python:3
 ENV PYTHONDONTWRITEBYTECODE=1
 ENV PYTHONUNBUFFERED=1
