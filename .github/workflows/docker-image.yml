@@ -15,5 +15,5 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag my-image-name:v1
+      run: docker build . --file ../mycrm/Dockerfile --tag my-image-name:v1
       
